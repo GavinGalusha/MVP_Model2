@@ -5,7 +5,7 @@ In this project I employed a random forest classifier to build a MVP prediction 
 
 -To Start, I stringed together 3 different sets of datasets from 2000-2021, which brought together multiple statistics including player stats, team stats, and advanced NBA metrics.
 
--I then cleaned the data and generated multiple new features as a the datasets merged together using a map on the common column of each dataset.
+-I then cleaned the data and generated multiple new features as the datasets merged together, with the help of a map to build one big dataframe based on the common columns in the datasets.
 
 -From there, I oversampled to get more occurences to train the classifier on, and used a random grid with 5 fold cross validation in order to determine the best hyperparameters for the classifier.
 
